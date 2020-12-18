@@ -1,0 +1,72 @@
+
+.footer{
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #183b67;
+    color: white;
+    line-height: 50px;
+}
+
+@media only screen and (max-width: 991px){
+    .login{
+        text-align: center;
+        background-color: #183b67;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    .button-login{
+        margin-top: 50px;
+        background-color: royalblue;
+        color: white;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .text-login{
+        margin-bottom: 50px;
+    }
+    
+    
+    .login{
+        font-size: 20px;
+        padding-top: 60px;
+        color: white;
+        margin-top: 50px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #183b67;
+        width: 800px;
+        height: 520px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+    }
+    
+    
+    .button-login{
+        margin-top: 50px;
+        background-color: royalblue;
+        color: white;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+}
+
